@@ -23,11 +23,11 @@ def chng():
 def call():
    # myScreenshot = pyautogui.screenshot()
   #  myScreenshot.save(r'C:\Users\Srathak\OneDrive\Desktop\screenshots')
-    account_sid = 'AC10c619478dd9d56a1b046733c804d958'
-    auth_token = '255b7f0ac8d7a81496bd10dfa0ad8daf'
+    account_sid = 'AC*************'
+    auth_token = '2*****************'
     client = Client(account_sid, auth_token)
 
-    message = client.messages.create(body='ALERT!!!! MOTION DETECTED', from_='+18508098731' , to ='+919811270883')
+    message = client.messages.create(body='ALERT!!!! MOTION DETECTED', from_='+******' , to ='+91********')
     # printing the sid after success
     print(message.sid)
 
